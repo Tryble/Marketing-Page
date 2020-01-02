@@ -244,8 +244,28 @@ footer p {
 .secondsec .maindiv div {
   padding: 50px;
 }
+.thirdsec {
+  padding-bottom: 150px;
+}
 .thirdsec h3 {
+  padding-bottom: 150px;
   text-align: center;
+}
+.thirdsec img {
+  width: 100%;
+}
+.fourthsec .maindiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fourthsec .maindiv div {
+  align-items: center;
+}
+.fourthsec .maindiv p {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
 }
 .fourthsec h2 {
   text-align: center;
