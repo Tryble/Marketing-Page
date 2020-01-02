@@ -189,6 +189,36 @@ a {
   font-size: 2rem;
   padding: 11px 27px;
 }
+.topnav .normalbutton:hover {
+  font-weight: bold;
+  color: #5d5d5d;
+}
+footer {
+  margin-bottom: 30px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+footer nav a {
+  color: #101010;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+footer nav a:hover {
+  color: #5d5d5d;
+}
+footer p {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #101010;
+}
 .topsec {
   display: flex;
   justify-content: space-between;
@@ -213,4 +243,10 @@ a {
 }
 .secondsec .maindiv div {
   padding: 50px;
+}
+.thirdsec h3 {
+  text-align: center;
+}
+.fourthsec h2 {
+  text-align: center;
 }
