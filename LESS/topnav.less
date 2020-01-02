@@ -3,15 +3,16 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Quicksand';
+    margin: @margin;
 
     .signup {
-        background-color: #392959;
+        background-color: @Xdark;
         border-radius: 8px;
         color: white;
-         padding: 11px 27px;
+         
 
          &:hover {
-            background-color: lighten(#392959, 30%);
+            background-color: lighten(@Xdark, 20%);
         }
     }
 
@@ -27,8 +28,7 @@
 
     a {
         font-size: 2rem;
-        padding: 40px;
-
+        padding: 11px 27px;
         
     }
 }

@@ -134,9 +134,6 @@ html {
   font-family: 'Quicksand';
   font-style: normal;
 }
-.container {
-  margin: 20px;
-}
 h1,
 h2,
 h3,
@@ -151,14 +148,21 @@ h1 {
   line-height: 60px;
 }
 h2 {
-  font-size: 3.2rem;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
 }
 h3 {
-  font-size: 2.8rem;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
 }
 p {
-  font-size: 1.6rem;
-  line-height: 1.4;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
 }
 a {
   text-decoration: none;
@@ -168,20 +172,45 @@ a {
   justify-content: space-between;
   align-items: center;
   font-family: 'Quicksand';
+  margin: 20px 50px;
 }
 .topnav .signup {
   background-color: #392959;
   border-radius: 8px;
   color: white;
-  padding: 11px 27px;
 }
 .topnav .signup:hover {
-  background-color: #8064b7;
+  background-color: #66499f;
 }
 .topnav img {
   width: 147px;
 }
 .topnav a {
   font-size: 2rem;
-  padding: 40px;
+  padding: 11px 27px;
+}
+.topsec {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  margin: 20px 50px;
+  margin-right: 0;
+}
+.topsec img {
+  width: 791px;
+}
+.secondsec {
+  margin: 100px;
+  margin-top: 20px;
+}
+.secondsec .maindiv {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.secondsec .maindiv img {
+  width: 791px;
+}
+.secondsec .maindiv div {
+  padding: 50px;
 }
