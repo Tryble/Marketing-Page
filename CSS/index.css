@@ -131,6 +131,8 @@ table {
 }
 html {
   font-size: 62.5%;
+  font-family: 'Quicksand';
+  font-style: normal;
 }
 .container {
   margin: 20px;
@@ -140,9 +142,13 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
-  color: black;
+  color: #101010;
   text-emphasis: bolder;
+}
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
 }
 h2 {
   font-size: 3.2rem;
@@ -156,4 +162,26 @@ p {
 }
 a {
   text-decoration: none;
+}
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Quicksand';
+}
+.topnav .signup {
+  background-color: #392959;
+  border-radius: 8px;
+  color: white;
+  padding: 11px 27px;
+}
+.topnav .signup:hover {
+  background-color: #8064b7;
+}
+.topnav img {
+  width: 147px;
+}
+.topnav a {
+  font-size: 2rem;
+  padding: 40px;
 }
