@@ -41,13 +41,21 @@
 }
 
 .fourthsec {
+    padding-bottom: 70px;
+
     
     .maindiv {
         display: flex;
         justify-content: space-evenly;
         
         div {
+            display: flex;
+            flex-flow: column;
             align-items: center;
+
+            img {
+                padding: 10px;
+            }
         }
 
         p {
@@ -59,7 +67,37 @@
     }
 
     h2 {
+        padding-bottom: 70px;
         text-align: center;
     }
 
 }
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+        a {
+        background-color: @Xdark;
+        border-radius: 8px;
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        padding: 20px 241px;
+            
+
+            &:hover {
+                background-color: lighten(@Xdark, 20%);
+            }
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+

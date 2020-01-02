@@ -254,12 +254,20 @@ footer p {
 .thirdsec img {
   width: 100%;
 }
+.fourthsec {
+  padding-bottom: 70px;
+}
 .fourthsec .maindiv {
   display: flex;
   justify-content: space-evenly;
 }
 .fourthsec .maindiv div {
+  display: flex;
+  flex-flow: column;
   align-items: center;
+}
+.fourthsec .maindiv div img {
+  padding: 10px;
 }
 .fourthsec .maindiv p {
   font-weight: bold;
@@ -268,5 +276,30 @@ footer p {
   letter-spacing: 0.02em;
 }
 .fourthsec h2 {
+  padding-bottom: 70px;
   text-align: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.button a {
+  background-color: #392959;
+  border-radius: 8px;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 20px 241px;
+}
+.button a:hover {
+  background-color: #66499f;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
