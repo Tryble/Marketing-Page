@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Quicksand';
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #101010;
+  text-emphasis: bolder;
+}
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+}
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+}
+p {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+}
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Quicksand';
+  margin: 20px 50px;
+}
+.topnav .signup {
+  background-color: #392959;
+  border-radius: 8px;
+  color: white;
+}
+.topnav .signup:hover {
+  background-color: #66499f;
+}
+.topnav img {
+  width: 147px;
+}
+.topnav a {
+  font-size: 2rem;
+  padding: 11px 27px;
+}
+.topnav .normalbutton:hover {
+  font-weight: bold;
+  color: #5d5d5d;
+}
+footer {
+  margin-bottom: 30px;
+}
+footer .logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 200px;
+  margin-bottom: 30px;
+}
+footer nav a {
+  color: #101010;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+footer nav a:hover {
+  color: #5d5d5d;
+}
+footer p {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #101010;
+}
