@@ -284,6 +284,29 @@ section #mobileP {
     display: none;
   }
 }
+.mobileImg2 {
+  display: none;
+}
+@media (max-width: 500px) {
+  .mobileImg2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+.mobileImg2 img {
+  margin-bottom: 70px;
+}
+.mobileImg2 a {
+  background-color: #392959;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 57px;
+  margin: 70px 0;
+}
+.mobileImg2 a:hover {
+  background-color: #66499f;
+}
 .maindiv {
   display: flex;
   justify-content: space-evenly;
@@ -292,7 +315,7 @@ section #mobileP {
 }
 @media (max-width: 500px) {
   .maindiv {
-    padding: 10px;
+    padding: 0  10px 100px;
   }
 }
 .maindiv div {

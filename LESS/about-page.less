@@ -35,6 +35,30 @@ letter-spacing: 0.02em;
 }
 }
 
+.mobileImg2 {
+    display: none;
+    @media(max-width: 500px) {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    img {
+        margin-bottom: 70px;
+    }
+    a {
+        background-color: @Xdark;
+        border-radius: 8px;
+        color: white;
+        padding:  10px 57px;
+        margin: 70px 0;
+
+         &:hover {
+            background-color: lighten(@Xdark, 20%);
+        }
+    }
+}
+
 .maindiv {
     display: flex;
     justify-content: space-evenly;
@@ -42,7 +66,7 @@ letter-spacing: 0.02em;
     padding: 0 214px 214px;
 
     @media(max-width: 500px) {
-        padding: 10px;
+        padding: 0  10px 100px;
     }
 
     div {
