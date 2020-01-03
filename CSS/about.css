@@ -253,178 +253,127 @@ footer p {
   letter-spacing: 0.02em;
   color: #101010;
 }
-.topsec {
-  display: flex;
-  justify-content: space-between;
-  padding: 60px 0;
-  margin: 2em 5em;
-  margin-right: 0;
-}
-.topsec img {
-  width: 791px;
-}
-@media (max-width: 500px) {
-  .topsec img {
-    display: none;
-  }
-}
-@media (max-width: 500px) {
-  .topsec h1 {
-    font-size: 3.6rem;
-    line-height: 50px;
-    padding-right: 55px;
-  }
-}
-@media (max-width: 500px) {
-  .topsec p {
-    font-size: 2.1rem;
-    line-height: 26px;
-    letter-spacing: 0.02em;
-    padding: 10px 0px;
-    padding-right: 150px;
-  }
-}
-.secondsec {
-  margin: 100px;
-  margin-top: 20px;
-}
-@media (max-width: 500px) {
-  .secondsec {
-    margin: 60px;
-  }
-}
-.secondsec .maindiv {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
-}
-@media (max-width: 500px) {
-  .secondsec .maindiv {
-    flex-flow: column;
-    text-align: center;
-  }
-}
-@media (max-width: 500px) {
-  .secondsec .maindiv h2 {
-    font-size: 2.4rem;
-    line-height: 30px;
-    padding-bottom: 20px;
-    letter-spacing: 0.02em;
-  }
-}
-@media (max-width: 500px) {
-  .secondsec .maindiv p {
-    font-size: 1.4rem;
-    line-height: 20px;
-  }
-}
-.secondsec .maindiv img {
-  width: 791px;
-}
-.secondsec .maindiv div {
-  padding: 50px;
-}
-@media (max-width: 500px) {
-  .secondsec .maindiv .one {
-    order: -1;
-    width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .secondsec .maindiv .two {
-    width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .secondsec .maindiv .three {
-    width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .secondsec .maindiv .four {
-    order: 2;
-    width: 100%;
-  }
-}
-.thirdsec {
-  padding-bottom: 12em;
-}
-.thirdsec h3 {
-  padding-bottom: 12em;
-  text-align: center;
-}
-.thirdsec img {
-  width: 100%;
-}
-@media (max-width: 500px) {
-  .thirdsec #desktopHomeimg {
-    display: none;
-  }
-}
-.thirdsec #mobileHomeimg {
+#mobileImg1 {
   display: none;
 }
 @media (max-width: 500px) {
-  .thirdsec #mobileHomeimg {
-    display: initial;
+  #mobileImg1 {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 6em;
+    width: 256px;
   }
 }
-.fourthsec {
-  padding-bottom: 6em;
-}
-.fourthsec .maindiv {
+section {
+  margin: 168px;
+  font-size: 2.1rem;
+  line-height: 30px;
+  /* or 143% */
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+section #mobileP {
+  line-height: 25px;
+}
+section #mobileP span {
+  font-weight: bold;
 }
 @media (max-width: 500px) {
-  .fourthsec .maindiv {
-    flex-flow: column;
+  section #mobileP {
+    font-size: 1.4rem;
+    margin: 4em;
+    text-align: start;
   }
 }
-.fourthsec .maindiv div {
+.mobileImg2 {
+  display: none;
+}
+@media (max-width: 500px) {
+  .mobileImg2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+.mobileImg2 img {
+  margin-bottom: 6em;
+}
+.mobileImg2 a {
+  background-color: #392959;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 57px;
+  margin: 6em 0;
+}
+.mobileImg2 a:hover {
+  background-color: #66499f;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  padding: 0 214px 214px;
+}
+@media (max-width: 500px) {
+  .maindiv {
+    padding: 0  0px 100px;
+  }
+  .maindiv .dev {
+    width: 50%;
+    padding: 50px;
+  }
+}
+.maindiv div {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-@media (max-width: 500px) {
-  .fourthsec .maindiv div {
-    padding-bottom: 50px;
-  }
+.maindiv div img {
+  padding: 10px 10px;
 }
-.fourthsec .maindiv div img {
-  padding: 10px;
-}
-.fourthsec .maindiv p {
+.maindiv div p {
   font-weight: bold;
   font-size: 2.1rem;
   line-height: 26px;
   letter-spacing: 0.02em;
 }
-.fourthsec h2 {
-  padding-bottom: 70px;
-  text-align: center;
+.maindiv .Mike {
+  border-bottom: 4px solid #26BF26;
 }
-.button {
+.maindiv .Christopher {
+  border-bottom: 4px solid #EE2727;
+}
+.maindiv .Chioma {
+  border-bottom: 4px solid #392959;
+}
+.maindiv .Stephen {
+  border-bottom: 4px solid #2F80ED;
+}
+.maindiv .Zakaria {
+  border-bottom: 4px solid #52446E;
+}
+.maindiv .Evans {
+  border-bottom: 4px solid #FBE418;
+}
+.maindiv .Vickie {
+  border-bottom: 4px solid #FD8A25;
+}
+.maindiv .Oladimeji {
+  border-bottom: 4px solid #3105AE;
+}
+.maindiv .job {
+  width: 100%;
+}
+.maindiv .job p {
+  padding-top: 1em;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 30px;
+  /* identical to box height, or 167% */
   display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-.button a {
-  background-color: #392959;
-  border-radius: 8px;
-  font-size: 2.1rem;
-  line-height: 26px;
-  text-align: center;
+  align-items: center;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  padding: 20px 241px;
-}
-.button a:hover {
-  background-color: #66499f;
-}
-@media (max-width: 500px) {
-  .button a {
-    padding: 11px 81px;
-  }
+  color: #000000;
 }
