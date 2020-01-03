@@ -1,0 +1,41 @@
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand';
+    margin: 6em 4em 0;
+    @media(max-width: 500px) {
+        display: none;
+    }
+
+    .signup {
+        background-color: @Xdark;
+        border-radius: 8px;
+        color: white;
+         
+
+         &:hover {
+            background-color: lighten(@Xdark, 20%);
+        }
+    }
+
+    img {
+        width: 147px;
+    }
+
+    // div {
+    //     display: flex;
+    //     justify-content: space-between;
+        
+    // }
+
+    a {
+        font-size: 1.8rem;
+        padding: 11px 27px;
+    }
+
+    .normalbutton:hover {
+        font-weight: bold;
+        color: lighten(@black, 30%)
+    }
+}
