@@ -235,30 +235,50 @@ section {
   text-align: center;
   letter-spacing: 0.02em;
 }
+section #mobileP {
+  display: none;
+}
+@media (max-width: 500px) {
+  section {
+    margin: 45px;
+    text-align: initial;
+  }
+  section #mobileP {
+    display: initial;
+  }
+  section #desktopP {
+    display: none;
+  }
+}
 .maindiv {
   display: flex;
   justify-content: space-evenly;
   flex-flow: wrap;
   padding: 0 214px 214px;
 }
-.maindiv div {
+@media (max-width: 500px) {
+  .maindiv {
+    padding: 10px;
+  }
+}
+div {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-.maindiv div img {
+div img {
   padding: 10px 10px;
 }
-.maindiv p {
+div p {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
   letter-spacing: 0.02em;
 }
-.maindiv .job {
+div .job {
   width: 100%;
 }
-.maindiv .job p {
+div .job p {
   padding-top: 20px;
   font-weight: normal;
   font-size: 18px;

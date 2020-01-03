@@ -8,6 +8,22 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.02em;
+
+#mobileP {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    margin: 45px;
+    text-align: initial;
+   #mobileP {
+       display: initial;
+
+   }
+   #desktopP {
+       display: none;
+   }
+}
 }
 
 .maindiv {
@@ -15,6 +31,11 @@ letter-spacing: 0.02em;
     justify-content: space-evenly;
     flex-flow: wrap;
     padding: 0 214px 214px;
+
+    @media(max-width: 500px) {
+        padding: 10px;
+    }
+}
     
     div {
         display: flex;
@@ -23,7 +44,7 @@ letter-spacing: 0.02em;
 
         img {
             padding: 10px 10px;
-        }
+           
     }
 
     p {
