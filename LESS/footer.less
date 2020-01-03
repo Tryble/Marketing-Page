@@ -1,13 +1,13 @@
 footer {
     margin-bottom: 141px;
     @media(max-width: 500px) {
-        margin-bottom: 20px;
+        margin-bottom: 2em;
     }
 
     .logo {
         display: flex;
         justify-content: center;
-        padding-bottom: 50px;
+        padding-bottom: 5em;
     }
 
     nav{
@@ -16,14 +16,14 @@ footer {
         margin: 0 428px;
         margin-bottom: 30px;
         @media(max-width: 500px) {
-            margin:0 72px;
+            margin:0 7em;
             justify-content: space-evenly;
         }
         div {
             display: flex;
             justify-content: space-evenly;
             @media(max-width: 500px) {
-            margin:0 72px;
+            margin:0 7em;
             flex-flow: column;
         }
         }
@@ -33,11 +33,11 @@ footer {
             a {
             color: @black;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 1.8rem;
             line-height: 22px;
             text-align: center;
             letter-spacing: 0.02em;
-            padding: 22px;
+            padding: 2.12em; //allows to center buttons because of the two divs for mobile view
 
             &:hover {
                 color: lighten(@black, 30%)
@@ -47,7 +47,7 @@ footer {
     
 
     p {
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 22px;
         text-align: center;
         letter-spacing: 0.02em;
