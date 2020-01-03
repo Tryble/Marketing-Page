@@ -8,10 +8,23 @@ footer {
     }
 
     nav{
-        display: flex;
-        justify-content: space-evenly;
+       display: flex;
+       
         margin: 0 428px;
         margin-bottom: 30px;
+        @media(max-width: 500px) {
+            margin:0 72px;
+            justify-content: space-evenly;
+        }
+        div {
+            display: flex;
+            justify-content: space-evenly;
+            @media(max-width: 500px) {
+            margin:0 72px;
+            flex-flow: column;
+        }
+        }
+        
         
 
             a {
@@ -21,6 +34,7 @@ footer {
             line-height: 22px;
             text-align: center;
             letter-spacing: 0.02em;
+            padding: 22px;
 
             &:hover {
                 color: lighten(@black, 30%)
@@ -35,5 +49,12 @@ footer {
         text-align: center;
         letter-spacing: 0.02em;
         color: @black;
+    }
+
+    #community {
+        display: none;
+        @media(max-width: 500px) {
+            display: initial;
+        }
     }
 }

@@ -203,9 +203,24 @@ footer .logo {
 }
 footer nav {
   display: flex;
-  justify-content: space-evenly;
   margin: 0 428px;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  footer nav {
+    margin: 0 72px;
+    justify-content: space-evenly;
+  }
+}
+footer nav div {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  footer nav div {
+    margin: 0 72px;
+    flex-flow: column;
+  }
 }
 footer nav a {
   color: #101010;
@@ -214,6 +229,7 @@ footer nav a {
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.02em;
+  padding: 22px;
 }
 footer nav a:hover {
   color: #5d5d5d;
@@ -224,6 +240,24 @@ footer p {
   text-align: center;
   letter-spacing: 0.02em;
   color: #101010;
+}
+footer #community {
+  display: none;
+}
+@media (max-width: 500px) {
+  footer #community {
+    display: initial;
+  }
+}
+#mobileImg1 {
+  display: none;
+}
+@media (max-width: 500px) {
+  #mobileImg1 {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 64px;
+  }
 }
 section {
   margin: 168px;
@@ -261,24 +295,24 @@ section #mobileP {
     padding: 10px;
   }
 }
-div {
+.maindiv div {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-div img {
+.maindiv div img {
   padding: 10px 10px;
 }
-div p {
+.maindiv div p {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
   letter-spacing: 0.02em;
 }
-div .job {
+.maindiv .job {
   width: 100%;
 }
-div .job p {
+.maindiv .job p {
   padding-top: 20px;
   font-weight: normal;
   font-size: 18px;
