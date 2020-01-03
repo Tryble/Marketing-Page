@@ -4,6 +4,7 @@
        display: flex;
        margin: 0 auto;
        padding-top: 6em;
+       width: 256px;
     }
 }
 
@@ -18,28 +19,20 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.02em;
 
-#mobileP {
-    display: none;
-}
 
-@media(max-width: 500px) {
-    margin: 4em;
-    font-size: 1.6rem;
-    text-align: start;
-   #mobileP {
-       display: initial;
-       font-size: 1.4rem;
+
+#mobileP {
+       
        line-height: 25px;
        span {
-           .bold {
            font-weight: bold;
        }
-       }
-
-   }
-   #desktopP {
-       display: none;
-   }
+       @media(max-width: 500px) {
+        font-size: 1.4rem;
+        margin: 4em;
+        text-align: start;
+   
+}
 }
 }
 
@@ -74,13 +67,19 @@ letter-spacing: 0.02em;
     padding: 0 214px 214px;
 
     @media(max-width: 500px) {
-        padding: 0  10px 100px;
+        padding: 0  0px 100px;
+        
+        .dev {
+            width: 50%;
+            padding: 50px;
+        }
     }
 
     div {
         display: flex;
         flex-flow: column;
         align-items: center;
+        
 
         img {
             padding: 10px 10px;
@@ -127,6 +126,7 @@ letter-spacing: 0.02em;
     .Oladimeji {
         .borderbottom(@blue2);
     }
+
     
     
 
