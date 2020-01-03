@@ -212,8 +212,10 @@ footer .logo {
 }
 footer nav {
   display: flex;
-  margin: 0 428px;
-  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 3em;
 }
 @media (max-width: 500px) {
   footer nav {
@@ -224,6 +226,7 @@ footer nav {
 footer nav div {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 @media (max-width: 500px) {
   footer nav div {
@@ -238,7 +241,7 @@ footer nav a {
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.02em;
-  padding: 2.12em;
+  padding: 2em;
 }
 footer nav a:hover {
   color: #5d5d5d;
@@ -249,14 +252,6 @@ footer p {
   text-align: center;
   letter-spacing: 0.02em;
   color: #101010;
-}
-footer #community {
-  display: none;
-}
-@media (max-width: 500px) {
-  footer #community {
-    display: initial;
-  }
 }
 .topsec {
   display: flex;
