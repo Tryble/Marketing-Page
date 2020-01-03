@@ -274,11 +274,14 @@ section #mobileP {
 }
 @media (max-width: 500px) {
   section {
-    margin: 45px;
-    text-align: initial;
+    margin: 44px;
+    font-size: 16px;
+    text-align: start;
   }
   section #mobileP {
     display: initial;
+    font-size: 14px;
+    line-height: 25px;
   }
   section #desktopP {
     display: none;
