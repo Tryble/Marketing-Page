@@ -172,7 +172,7 @@ a {
   justify-content: space-between;
   align-items: center;
   font-family: 'Quicksand';
-  margin: 20px 50px;
+  margin: 62px 48px 0;
 }
 .topnav .signup {
   background-color: #392959;
@@ -186,7 +186,7 @@ a {
   width: 147px;
 }
 .topnav a {
-  font-size: 2rem;
+  font-size: 18px;
   padding: 11px 27px;
 }
 .topnav .normalbutton:hover {
@@ -194,7 +194,7 @@ a {
   color: #5d5d5d;
 }
 footer {
-  margin-bottom: 30px;
+  margin-bottom: 141px;
 }
 footer .logo {
   display: flex;
@@ -204,7 +204,7 @@ footer .logo {
 footer nav {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 200px;
+  margin: 0 428px;
   margin-bottom: 30px;
 }
 footer nav a {
@@ -224,4 +224,47 @@ footer p {
   text-align: center;
   letter-spacing: 0.02em;
   color: #101010;
+}
+section {
+  margin: 168px;
+  font-size: 21px;
+  line-height: 30px;
+  /* or 143% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+}
+.maindiv div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.maindiv div img {
+  padding: 10px 50px;
+}
+.maindiv p {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+}
+.maindiv .job {
+  width: 100%;
+}
+.maindiv .job p {
+  padding-top: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
