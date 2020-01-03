@@ -239,6 +239,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   flex-flow: wrap;
+  padding: 0 214px 214px;
 }
 .maindiv div {
   display: flex;
@@ -246,7 +247,7 @@ section {
   align-items: center;
 }
 .maindiv div img {
-  padding: 10px 50px;
+  padding: 10px 10px;
 }
 .maindiv p {
   font-weight: bold;
